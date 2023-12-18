@@ -40,7 +40,6 @@ public class ActionTest {
         Assert.assertEquals(text2.getText(), "name: user2");
 
     }
-
     @Test
     public void Test3() throws InterruptedException {
 
