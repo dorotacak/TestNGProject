@@ -8,7 +8,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 public class OpenBrowser {
     public static void main(String[] args) throws InterruptedException {
         WebDriverManager.chromedriver().setup();//1 krok
-        WebDriver driver=new ChromeDriver();// krok
+        WebDriver driver=new ChromeDriver();// 2 krok
         driver.get("https://www.amazon.com/");//3 krok
         Thread.sleep(2000);
 
