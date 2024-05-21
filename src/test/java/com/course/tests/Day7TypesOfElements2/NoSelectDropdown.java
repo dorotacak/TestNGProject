@@ -15,7 +15,7 @@ public class NoSelectDropdown {
 
     WebDriverManager.chromedriver().setup();
     WebDriver driver = new ChromeDriver();
-    driver.get("https://practice.cydeo.com/dropdown");
+    driver.get("https://www.saucedemo.com/");
     WebElement dropDown= driver.findElement(By.id("dropdownMenuLink"));
     dropDown.click();
     List<WebElement> dropDownOptions=driver.findElements(By.className("dropdown-item"));

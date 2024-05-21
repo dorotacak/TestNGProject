@@ -15,7 +15,7 @@ public class ImplicitWaitExample {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        driver.get("https://practice.cydeo.com/dynamic_loading/4");
+        driver.get("https://www.saucedemo.com/"); //dynamic_loading/4
         String actualMessage=driver.findElement(By.xpath("//h4[.='Hello World!']")).getText();//chce ten tekst wiec get text
         //pokazuje obecna informacje na www jako string, bo to jest tekst
         String expectedMessage="Hello World!";//TO JEST NA Www, to ma być na www, tak mam w wytycznych z firmy

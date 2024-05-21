@@ -13,7 +13,7 @@ public class DisabledElements {
     public void Test1(){
         WebDriverManager.chromedriver().setup();
         WebDriver driver=new ChromeDriver();
-        driver.get("https://practice.cydeo.com/radio_buttons");
+        driver.get("https://www.saucedemo.com/"); //radio buttons!!!!
         WebElement greenButton= driver.findElement(By.id("green"));
         Assert.assertFalse(greenButton.isEnabled());
 

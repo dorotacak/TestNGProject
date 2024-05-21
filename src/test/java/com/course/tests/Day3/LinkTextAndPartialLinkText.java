@@ -9,7 +9,7 @@ public class LinkTextAndPartialLinkText {
     public static void main(String[] args) throws InterruptedException {
         WebDriverManager.chromedriver().setup();
         WebDriver driver=new ChromeDriver();
-        driver.get("https://practice.cydeo.com/dynamic_loading");
+        driver.get("https://www.saucedemo.com/");
         driver.manage().window().maximize();
         driver.findElement(By.linkText("Example 1: Element on page that is hidden and become visible after trigger")).click();
         driver.navigate().back();

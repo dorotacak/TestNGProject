@@ -9,7 +9,7 @@ public class LocaterPractice {
     public static void main(String[] args) {
         WebDriverManager.chromedriver().setup();
         WebDriver driver=new ChromeDriver();
-        driver.get("https://practice.cydeo.com/registration_form");
+        driver.get("https://www.saucedemo.com/");//registration form!!!!!
         driver.findElement(By.xpath("//input[@class='form-control']")).sendKeys("Dorota");
         driver.findElement(By.xpath("//input[@placeholder='last name']")).sendKeys("Cakar");
         driver.findElement(By.xpath("//input[@name='username']")).sendKeys("dorotacakar");

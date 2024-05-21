@@ -17,7 +17,7 @@ public class ListOfElements {
 
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
-        driver.get("https://practice.cydeo.com/multiple_buttons");
+        driver.get("https://www.saucedemo.com/");
         List<WebElement> buttons=driver.findElements(By.tagName("button"));
         System.out.println(buttons.get(5).getText());
         System.out.println(buttons.size());

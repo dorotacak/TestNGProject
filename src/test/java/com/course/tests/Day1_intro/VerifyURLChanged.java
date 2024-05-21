@@ -10,7 +10,7 @@ public class VerifyURLChanged {
     public static void main(String[] args) {
         WebDriverManager.chromedriver().setup();
         WebDriver driver=new ChromeDriver();
-        driver.get("https://practice.cydeo.com/forgot_password");
+        driver.get("https://www.saucedemo.com/");
         driver.manage().window().maximize();
         WebElement emailBox= driver.findElement(By.name("email"));
         emailBox.sendKeys("abs@hotmail.com");

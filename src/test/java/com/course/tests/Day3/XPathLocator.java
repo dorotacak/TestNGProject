@@ -10,7 +10,7 @@ public class XPathLocator {
 
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
-        driver.get("https://practice.cydeo.com/inputs");
+        driver.get("https://www.saucedemo.com/");
         driver.manage().window().maximize();
         driver.findElement(By.xpath("//input[@type='number']")).sendKeys("abc");
     }

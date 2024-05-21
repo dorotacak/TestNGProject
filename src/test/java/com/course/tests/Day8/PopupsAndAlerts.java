@@ -15,7 +15,7 @@ public class PopupsAndAlerts {
 
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
-        driver.get("https://practice.cydeo.com/javascript_alerts");
+        driver.get("https://www.saucedemo.com/");//java script alerts!!!!!!
         driver.manage().window().maximize();
         driver.findElement(By.xpath("//button")).click();
         Alert alert=driver.switchTo().alert();

@@ -8,7 +8,7 @@ public class GetTitleAndUrl {
     public static void main(String[] args) {
         WebDriverManager.chromedriver().setup();
         WebDriver driver=new ChromeDriver();
-        driver.get("https://practice.cydeo.com/");
+        driver.get("https://www.saucedemo.com/");
         System.out.println(driver.getTitle());
         System.out.println(driver.getCurrentUrl());
     }

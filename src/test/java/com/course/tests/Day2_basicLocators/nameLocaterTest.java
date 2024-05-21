@@ -11,7 +11,7 @@ public class nameLocaterTest {
         WebDriverManager.chromedriver().setup();
         WebDriver driver=new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get("https://practice.cydeo.com/sign_up");
+        driver.get("https://www.saucedemo.com/");
 
         WebElement nameInput= driver.findElement(By.name("full_name"));
         nameInput.sendKeys("Dorota Cakar");

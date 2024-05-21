@@ -19,7 +19,7 @@ public class ExplicitWaitExample {
 
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
-        driver.get("https://practice.cydeo.com/dynamic_loading/1");
+        driver.get("https://www.saucedemo.com/");//dynamic loading!!!!!
         driver.findElement(By.xpath("//button")).click();
         WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(10));
         WebElement userName=driver.findElement(By.id("username"));
@@ -31,7 +31,7 @@ public class ExplicitWaitExample {
     public void Test2(){
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
-        driver.get("https://practice.cydeo.com/dynamic_controls");
+        driver.get("https://www.saucedemo.com/");//dynamic_controls!!!!
         driver.findElement(By.xpath("(//button)[2]")).click();//komenda chce wejsc w ta strone wiec click
         WebElement inputBox= driver.findElement(By.xpath("(//input)[2]"));
         WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(10));//najpierw tworze object

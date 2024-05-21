@@ -9,7 +9,7 @@ public class XPathPractice {
     public static void main(String[] args) {
         WebDriverManager.chromedriver().setup();
         WebDriver driver=new ChromeDriver();
-        driver.get("https://practice.cydeo.com/multiple_buttons");
+        driver.get("https://www.saucedemo.com/");
         driver.manage().window().maximize();
         driver.findElement(By.xpath("//button[text()='Button 4']")).click();
         String actualText=driver.findElement(By.xpath("//p[text()='Clicked on button four!']")).getText();

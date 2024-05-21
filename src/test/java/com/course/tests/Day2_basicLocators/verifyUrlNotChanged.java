@@ -10,7 +10,7 @@ public class verifyUrlNotChanged {
     public static void main(String[] args) {
        WebDriverManager.chromedriver().setup();
         WebDriver driver=new ChromeDriver();
-        driver.get("https://practice.cydeo.com/forgot_password");
+        driver.get("https://www.saucedemo.com/");
         WebElement retrieveButton= driver.findElement(By.id("form_submit"));
         String expectedUrl=driver.getCurrentUrl();
 

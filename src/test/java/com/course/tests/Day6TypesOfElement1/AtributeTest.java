@@ -13,7 +13,7 @@ public class AtributeTest {
 
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
-        driver.get("https://practice.cydeo.com/radio_buttons");
+        driver.get("https://www.saucedemo.com/");
         WebElement yellowButton=driver.findElement(By.id("yellow"));
         System.out.println(yellowButton.getAttribute("type"));
         System.out.println(yellowButton.getAttribute("name"));

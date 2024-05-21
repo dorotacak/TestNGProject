@@ -14,7 +14,7 @@ public class CheckBoxDemo {
 
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
-        driver.get("https://practice.cydeo.com/checkboxes");
+        driver.get("https://www.saucedemo.com/");
         WebElement checkBox1= driver.findElement(By.id("box1"));
         WebElement checkBox2= driver.findElement(By.id("box2"));
         Assert.assertTrue(checkBox2.isSelected());
@@ -28,7 +28,7 @@ public class CheckBoxDemo {
     public void test2(){
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
-        driver.get("https://demo.seleniumeasy.com/basic-checkbox-demo.html");
+        driver.get("https://www.saucedemo.com/");
         WebElement defaultValue= driver.findElement(By.xpath("(//*[@type='checkbox'])[2]"));
         Assert.assertTrue(defaultValue.isSelected());
         WebElement firstCheckBox= driver.findElement(By.xpath("(//*[@type='checkbox'])[1]"));

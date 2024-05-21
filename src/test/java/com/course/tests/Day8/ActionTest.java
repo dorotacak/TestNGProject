@@ -16,7 +16,7 @@ public class ActionTest {
 
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
-        driver.get("https://practice.cydeo.com/hovers");
+        driver.get("https://www.saucedemo.com/");//hovers!!!!!
         WebElement Image1 = driver.findElement(By.tagName("img"));
         Actions actions = new Actions(driver);
         Thread.sleep(3000);
@@ -31,7 +31,7 @@ public class ActionTest {
 
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
-        driver.get("https://practice.cydeo.com/hovers");
+        driver.get("https://www.saucedemo.com/");//hovers!!!!!
         WebElement Image2 = driver.findElement(By.xpath("(//img)[2]"));
         Actions actions1 = new Actions(driver);
         Thread.sleep(3000);
